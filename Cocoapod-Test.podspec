@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Cocoapod-Test"
-  s.version      = "0.0.1"
+  s.version      = "1.0.0"
   s.summary      = "A short description of Cocoapod-Test."
 
   # This description is used to generate tags and improve search results.
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "git@github.com:jyq3612/Cocoapod-Test.git", :tag => "#{s.version}" }
+  s.source       = { :git => "git@github.com:jyq3612/Cocoapod-Test.git", :tag => "1.0.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
