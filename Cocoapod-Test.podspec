@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
                     描述
                    DESC
 
-  s.homepage     = "https://github.com/jyq3612/Cocoapod-Test"
+  s.homepage     = "https://github.com/jyq3612/Cocoapod-Test.git"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/jyq3612/Cocoapod-Test.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/jyq3612/Cocoapod-Test.git", :tag => "1.0.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
