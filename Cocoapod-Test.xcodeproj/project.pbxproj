@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C088A324219C15A9004822EB /* Cocoapod_Test.m in Sources */ = {isa = PBXBuildFile; fileRef = C088A323219C15A9004822EB /* Cocoapod_Test.m */; };
 		C088A325219C15A9004822EB /* Cocoapod_Test.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C088A322219C15A9004822EB /* Cocoapod_Test.h */; };
+		C088A32D219D0B9C004822EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C088A32C219D0B9C004822EB /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,7 @@
 		C088A31F219C15A9004822EB /* libCocoapod-Test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libCocoapod-Test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C088A322219C15A9004822EB /* Cocoapod_Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cocoapod_Test.h; sourceTree = "<group>"; };
 		C088A323219C15A9004822EB /* Cocoapod_Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cocoapod_Test.m; sourceTree = "<group>"; };
+		C088A32C219D0B9C004822EB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C088A32D219D0B9C004822EB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +49,7 @@
 			children = (
 				C088A321219C15A9004822EB /* Cocoapod-Test */,
 				C088A320219C15A9004822EB /* Products */,
+				C088A32B219D0B9C004822EB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +68,14 @@
 				C088A323219C15A9004822EB /* Cocoapod_Test.m */,
 			);
 			path = "Cocoapod-Test";
+			sourceTree = "<group>";
+		};
+		C088A32B219D0B9C004822EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C088A32C219D0B9C004822EB /* Foundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
